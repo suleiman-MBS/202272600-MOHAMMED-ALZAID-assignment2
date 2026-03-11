@@ -9,8 +9,7 @@
 Building upon Assignment 1, this version introduces **dynamic interactivity**, **advanced data handling**, and **modern UI/UX transitions**. The portfolio showcases my transition from static web design to functional, client-side JavaScript programming, focusing on my interests in **Cybersecurity** and **Serverless Computing**.
 
 ### 🔗 Live Demo
-> **https://suleiman-MBS.github.io/202272600-mohammed-alzaid-assignment2/**
-
+> ** https://suleiman-mbs.github.io/202272600-MOHAMMED-ALZAID-assignment2/**
 ---
 
 ## 🛠️ New Interactive Features (Assignment 2)
