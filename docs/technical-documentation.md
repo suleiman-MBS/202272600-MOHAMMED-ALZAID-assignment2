@@ -25,9 +25,26 @@ This project is a responsive personal portfolio website built using semantic HTM
 - **Event Listeners:** attached a `submit` event listener to the contact form.
 - **Interactivity:** Prevents the default form submission (page reload) and displays a custom alert message to provide immediate user feedback.
 
-## 4. Installation & Setup
-1.  Clone the repository:
-    ```bash
-    git clone [https://github.com/suleiman-MBS/202272600-MOHAMMED-ALZAID-assignment1.git](https://github.com/suleiman-MBS/202272600-MOHAMMED-ALZAID-assignment1.git)
-    ```
-2.  Open `index.html` in a browser. No build steps or server requirements are needed.
+
+### JavaScript Logic & Interaction
+* **Dynamic Content:** A greeting function utilizes the `Date()` object to determine the user's local hour and injects a time-sensitive greeting into the DOM.
+* **Event Listeners:** Implemented `addEventListener` on the theme toggle button and the contact form to handle user interactions without reloading the page.
+* **Form Validation:** Client-side validation checks for empty or invalid inputs and provides immediate feedback through the `#form-feedback` container.
+
+## 4. Data Handling & Persistence
+* **Web Storage API:** The application uses `localStorage` to save the user's theme preference (`light` or `dark`).
+* **Persistence Logic:** On page load, the script checks for a saved theme key. If found, it applies the theme immediately to ensure the user's preference persists across browser sessions.
+
+## 5. User Feedback & Error Handling
+* **Visual Cues:** When the contact form is submitted, the standard alert is replaced by a green success message or a red error message to improve UX.
+* **Fallback States:** If no theme is saved, the application defaults to the system's preferred color scheme.
+
+## 6. Installation & Setup
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/suleiman-MBS/202272600-mohammed-alzaid-assignment2.git](https://github.com/suleiman-MBS/202272600-mohammed-alzaid-assignment2.git)
+2. Navigate to the project root.
+3.  Open `index.html` in a browser. No build steps or server requirements are needed.
+
+---
+*Technical Documentation Version 2.0 - Developed by Mohammed Alzaid*
